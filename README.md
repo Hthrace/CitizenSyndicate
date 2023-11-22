@@ -1,6 +1,6 @@
 # Citizen Syndicate
 
-Citizen Syndicate" addresses a crucial issue in Star Citizen— the lack of in-game tools to easily locate items. Due to the active development of Star Citizen by Cloud Imperium Games (CIG), current game files no longer contain essential information about item locations, prices, and stats. This absence creates a challenge for players who struggle to find items within the vast Star Citizen universe.
+Citizen Syndicate addresses a crucial issue in Star Citizen— the lack of in-game tools to easily locate items. Due to the active development of Star Citizen by Cloud Imperium Games (CIG), current game files no longer contain essential information about item locations, prices, and stats. This absence creates a challenge for players who struggle to find items within the vast Star Citizen universe.
 
 To overcome this obstacle, Citizen Syndicate employs organizational-based crowdsourcing, allowing players to collaboratively contribute and access information about in-game items. The application aims to be a solution for the Star Citizen community, providing a centralized platform for easy sharing and retrieval of crucial details. Its user-friendly design facilitates deployment by player organizations with basic technical skills, ensuring accessibility for a wide range of players.
 
