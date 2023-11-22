@@ -1,8 +1,15 @@
-# React + Vite
+# Citizen Syndicate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Citizen Syndicate" addresses a crucial issue in Star Citizen— the lack of in-game tools to easily locate items. Due to the active development of Star Citizen by Cloud Imperium Games (CIG), current game files no longer contain essential information about item locations, prices, and stats. This absence creates a challenge for players who struggle to find items within the vast Star Citizen universe.
 
-Currently, two official plugins are available:
+To overcome this obstacle, Citizen Syndicate employs organizational-based crowdsourcing, allowing players to collaboratively contribute and access information about in-game items. The application aims to be a solution for the Star Citizen community, providing a centralized platform for easy sharing and retrieval of crucial details. Its user-friendly design facilitates deployment by player organizations with basic technical skills, ensuring accessibility for a wide range of players.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+While the project is actively in development, the ultimate goal is to bridge the information gap caused by the dynamic nature of Star Citizen's development process, providing players with a valuable resource for navigating the game's evolving universe.
+
+## Notice
+This site is not endorsed
+by or affiliated with the Cloud Imperium or Roberts Space Industries group of
+companies. All game content and materials are copyright Cloud Imperium Rights LLC
+and Cloud Imperium Rights Ltd.. Star Citizen®, Squadron 42®, Roberts Space Industries®,
+and Cloud Imperium® are registered trademarks of Cloud Imperium Rights LLC. All
+rights reserved.
