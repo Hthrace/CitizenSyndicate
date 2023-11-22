@@ -17,8 +17,8 @@ const Navigation = () => {
           <Logo src={communityLogo} />
         </LogoContainer>
         <NavLinksContainer>
-          <NavLink to={"/categories"}>Locate</NavLink>
-          <NavLink to={"/updateinfo"}>Update</NavLink>
+          <NavLink to={"locate"}>Locate</NavLink>
+          <NavLink to={"update"}>Update</NavLink>
         </NavLinksContainer>
       </NavigationContainer>
       <Outlet />
