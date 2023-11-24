@@ -4,10 +4,10 @@ body {
   padding: 20px 40px;
   margin: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("./assets/backgrounds/SC_20_Wallpaper_3840x2160.jpg");
+    url("./assets/backgrounds/SC_20_Wallpaper_3840x2160.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {

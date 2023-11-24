@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
-export const CategoryPreviewContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
+export const CategoryContainer = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  align-items: center;
+  justify-content: center;
+  grid-gap: 50px;
+  text-align: center;
 `;
 
 export const CategoryPreviewTitle = styled.h2`
@@ -18,11 +24,8 @@ export const Preview = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 50px;
-  margin-right: 200px;
-  margin-left: 200px;
 
-  @media screen and (max-width: 600px) {
-    margin-right: 0px;
-    margin-left: 0px;
+  @media screen and (max-width: 900px) {
+    margin: 0 auto;
   }
 `;
