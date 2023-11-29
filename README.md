@@ -6,6 +6,8 @@ To overcome this obstacle, Citizen Syndicate employs organizational-based crowds
 
 While the project is actively in development, the ultimate goal is to bridge the information gap caused by the dynamic nature of Star Citizen's development process, providing players with a valuable resource for navigating the game's evolving universe.
 
+![scCommunityLogo](https://raw.githubusercontent.com/Hthrace/citizenSyndicate/main/src/assets/logos/MadeByTheCommunity_Black.png)
+
 ## Notice
 This site is not endorsed
 by or affiliated with the Cloud Imperium or Roberts Space Industries group of
