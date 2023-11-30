@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <Fragment>
       <NavigationContainer>
-        <LogoContainer to={"/"}>
+        <LogoContainer to={"/citizenSyndicate"}>
           <Logo src={communityLogo} />
         </LogoContainer>
         <NavLinksContainer>
