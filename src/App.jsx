@@ -7,7 +7,7 @@ import Locate from "./locate/locate.component";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigation />}>
+      <Route path="/citizenSyndicate" element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path="locate/*" element={<Locate />} />
         <Route path="update/*" />
