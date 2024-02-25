@@ -1,19 +1,13 @@
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Categories from "../routes/categories/categories.component";
-
-const Items = ()=>{
-  let { items } = useParams();
-  return(
-    <h1>{items}</h1>
-  )
-}
+import ItemCard from "../components/item-card/item-card.component";
 
 const Locate = () => {
   return (
     <Routes>
       <Route index element={<Categories />} />
       <Route path=":category" element={<Categories />} />
-      <Route path=":category/:items" element={<Items />} />
+      <Route path=":category/:items" element={<ItemCard />} />
     </Routes>
   );
 };
