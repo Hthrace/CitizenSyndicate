@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import { useParams } from "react-router-dom";
 import ItemInfoModal from "../item-info-modal/item-info-modal.component";
 
-const ItemCard = () => {
+const ItemCard = ({item}) => {
   let { items } = useParams();
   return (
     <Card
@@ -30,7 +30,7 @@ const ItemCard = () => {
           component="div"
           style={{ color: "whitesmoke" }}
         >
-          {items}
+          {item.name}
         </Typography>
       </CardContent>
       <CardActions>
