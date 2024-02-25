@@ -10,7 +10,13 @@ import ItemInfoModal from "../item-info-modal/item-info-modal.component";
 const ItemCard = () => {
   let { items } = useParams();
   return (
-    <Card sx={{ maxWidth: 345, opacity: "0.9", background: "#1a1a1b" }}>
+    <Card
+      sx={{
+        maxWidth: 345,
+        background: "#1a1a1b",
+        "&:hover": { opacity: "0.9" },
+      }}
+    >
       <CardMedia
         component="img"
         alt="cool space item"
@@ -25,10 +31,6 @@ const ItemCard = () => {
           style={{ color: "whitesmoke" }}
         >
           {items}
-        </Typography>
-        <Typography variant="body2" color="whitesmoke">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
-          consequatur sed soluta.
         </Typography>
       </CardContent>
       <CardActions>
